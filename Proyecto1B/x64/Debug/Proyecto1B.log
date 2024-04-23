@@ -2,28 +2,34 @@
 C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ListaEnlazada.h(77,12): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
   (compiling source file 'Proyecto1B.cpp')
   
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ListaEnlazada.h(138,12): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ListaEnlazada.h(100,12): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
   (compiling source file 'Proyecto1B.cpp')
   
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ListaEnlazada.h(173,12): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ListaEnlazada.h(140,12): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+  (compiling source file 'Proyecto1B.cpp')
+  
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ListaEnlazada.h(175,12): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
   (compiling source file 'Proyecto1B.cpp')
   
 C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\AVL.h(202,10): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
   (compiling source file 'Proyecto1B.cpp')
   
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ArbolBB.h(134,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ArbolBB.h(135,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   (compiling source file 'Proyecto1B.cpp')
   
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ArbolBB.h(164,9): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\ArbolBB.h(165,9): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
   (compiling source file 'Proyecto1B.cpp')
   
 C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\BTREE.h(226,12): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
   (compiling source file 'Proyecto1B.cpp')
   
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(85,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(96,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(107,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(150,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(169,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
-C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(186,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(83,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(94,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(105,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(148,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(167,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(180,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(211,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(222,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\Proyecto1B\Proyecto1B.cpp(234,21): warning C4244: '=': conversion from 'double' to 'time_t', possible loss of data
   Proyecto1B.vcxproj -> C:\Users\lopez\OneDrive\Documents\TEC\III_Semestre\Estructura_de_Datos\Proyectos\Proyecto1A-1B\Proyecto1B\x64\Debug\Proyecto1B.exe

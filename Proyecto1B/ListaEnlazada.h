@@ -80,10 +80,12 @@ void CargarVotantes(PtrNodoLista& Lista, char* Archivo) {
 
 void EliminarLista(PtrNodoLista& Lista) {
 
-	PtrNodoLista Aux = Lista;
-	time_t inicio, fin;
+	cout << "=== Liberando datos del Padron electoral en la Lista Enlazada... ===" << endl;
 
+	time_t inicio, fin;
 	inicio = time(NULL);
+
+	PtrNodoLista Aux = Lista;
 
 	while (Aux != NULL) {
 		Lista = Lista->PtrSiguiente;
@@ -92,10 +94,10 @@ void EliminarLista(PtrNodoLista& Lista) {
 	}
 
 	fin = time(NULL);
-
-	cout << "----------------------------Padron liberado--------------------------------" << endl;
-	printf("La liberacion del padron ha tardado : %f segundos.\n", difftime(fin, inicio));
-	cout << "----------------------------Padron liberado--------------------------------" << endl;
+	auto tiempo = difftime(fin, inicio);
+	cout << "Padron electoral eliminado de la Lista Enlazada" << endl;
+	cout << "Tiempo tardado: " << tiempo << " s" << endl;
+	D_Lista = tiempo;
 	system("pause");
 }
 

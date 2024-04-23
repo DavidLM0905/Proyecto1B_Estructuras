@@ -31,8 +31,7 @@ int main() {
 		cout << "1. Cargar datos " << endl;
 		cout << "2. Listar datos" << endl;
 		cout << "3. Busqueda de datos" << endl;
-		cout << "4. Liberar de datos" << endl;
-		cout << "5. Salir / Reporte de tiempo" << endl;
+		cout << "4. Liberar de datos / Reporte de tiempos" << endl;
 		cout << endl << "Porfavor digite el numero de opcion que desea ejecutar: ";
 
 		cin >> opcion;
@@ -199,18 +198,73 @@ int main() {
 			}
 
 			system("cls");
-			cout << "=========== Ha selecionado: 4.Liberar datos ===========" << endl;
+			cout << "=========== Ha selecionado: 4.Liberar datos / Reporte de tiempos ===========" << endl;
+
+			EliminarLista(ListaMaestra);
+
+			cout << endl << " === Liberando datos del Padron electoral en el ArbolBB... === " << endl;
+			inicio = time(NULL);
+
+			LiberarBB(BB);
+
+			fin = time(NULL);
+			tiempo = difftime(fin, inicio);
+			cout << "Tiempo tardado: " << tiempo << " s" << endl;
+			D_BB = tiempo;
+			system("pause");
+
+			cout << endl << " === Liberando datos del Padron electoral en el ArbolAVL... === " << endl;
+			inicio = time(NULL);
+
+			LiberarAVL(AVL);
+
+			fin = time(NULL);
+			tiempo = difftime(fin, inicio);
+			cout << "Tiempo tardado: " << tiempo << " s" << endl;
+			D_AVL = tiempo;
+			system("pause");
+
+			cout << endl << " === Liberando datos del Padron electoral en el ArbolBTREE... === " << endl;
+			inicio = time(NULL);
+
+			LiberarBTree(rootBTREE);
+			rootBTREE = NULL;
+
+			fin = time(NULL);
+			tiempo = difftime(fin, inicio);
+			cout << "Tiempo tardado: " << tiempo << " s" << endl;
+			D_BTREE = tiempo;
+			system("pause");
+
+			cout << endl << "====================== Reporte de tiempos =====================" << endl;
+
+			cout << endl << "=== Lista Enlazada ===" << endl;
+			cout << "Tiempo de carga: " << C_Lista << " s" << endl;
+			cout << "Tiempo de listado: " << L_Lista << " s" << endl;
+			cout << "Tiempo de busqueda: " << B_Lista << " s" << endl;
+			cout << "Tiempo de liberacion: " << D_Lista << " s" << endl;
+
+			cout << endl << "=== Arbol Binario de Busqueda ===" << endl;
+			cout << "Tiempo de carga: " << C_BB << " s" << endl;
+			cout << "Tiempo de listado: " << L_BB << " s" << endl;
+			cout << "Tiempo de busqueda: " << B_BB << " s" << endl;
+			cout << "Tiempo de liberacion: " << D_BB << " s" << endl;
+
+			cout << endl << "=== Arbol AVL ===" << endl;
+			cout << "Tiempo de carga: " << C_AVL << " s" << endl;
+			cout << "Tiempo de listado: " << L_AVL << " s" << endl;
+			cout << "Tiempo de busqueda: " << B_AVL << " s" << endl;
+			cout << "Tiempo de liberacion: " << D_AVL << " s" << endl;
+
+			cout << endl << "=== Arbol BTREE ===" << endl;
+			cout << "Tiempo de carga: " << C_BTREE << " s" << endl;
+			cout << "Tiempo de listado: " << L_BTREE << " s" << endl;
+			cout << "Tiempo de busqueda: " << B_BTREE << " s" << endl;
+			cout << "Tiempo de liberacion: " << D_BTREE << " s" << endl;
 
 			system("pause");
 			return 0;
 
-		case 5:
-
-			system("cls");
-			cout << "======== Ha selecionado: 5.Reportes de tiempo ========" << endl;
-
-			system("pause");
-			return 0;
 
 		default:
 			system("cls");

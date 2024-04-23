@@ -203,3 +203,14 @@ void CargarAVL(NodoAVL*& NodoAVL, PtrNodoLista& Lista) {
 
 	system("pause");
 }
+
+void LiberarAVL(NodoAVL*& NodoAVL) {
+
+	if (NodoAVL != NULL) {
+
+		LiberarAVL(NodoAVL->izquierda);
+		LiberarAVL(NodoAVL->derecha);
+		delete(NodoAVL); NodoAVL = NULL;
+	}
+
+}

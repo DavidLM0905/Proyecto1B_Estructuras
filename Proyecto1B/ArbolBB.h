@@ -66,14 +66,15 @@ bool InsertarBB(NodoBB*& Raiz, int Cedula, char Codelec[7], char Fecha[9], char 
 	}
 }
 
-void PodarHojas(NodoBB*& Raiz) { 
+void LiberarBB(NodoBB*& Raiz) { 
+
 	if (Raiz != NULL) {
 
-		PodarHojas(Raiz->Izquierdo); 
-		PodarHojas(Raiz->Derecho);
-		printf("Borro : %i \n", Raiz->Cedula);
+		LiberarBB(Raiz->Izquierdo);
+		LiberarBB(Raiz->Derecho);
 		delete(Raiz); Raiz = NULL; 
 	}
+
 }
 
 NodoBB* BuscarBB(NodoBB* Raiz, int Cedula) { 
