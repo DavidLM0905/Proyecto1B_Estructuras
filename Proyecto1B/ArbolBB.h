@@ -121,23 +121,6 @@ void EnOrdenBB(NodoBB* Raiz, bool opcion) {
 	}
 }
 
-vector<PtrNodoLista> MezclarLista(PtrNodoLista& Lista) {
-
-	vector<PtrNodoLista> nodos;
-	PtrNodoLista Aux = Lista;
-
-	while (Aux != nullptr) {
-
-		nodos.push_back(Aux);
-		Aux = Aux->PtrSiguiente;
-	}
-
-	srand(time(nullptr));
-	random_shuffle(nodos.begin(), nodos.end());
-
-	return nodos;
-}
-
 NodoBB CargarBB(NodoBB*& NodoBB, PtrNodoLista& Lista) {
 
 	cout << endl << "=== Cargando el Padron electoral en el ArbolBB... ===" << endl;
@@ -146,14 +129,14 @@ NodoBB CargarBB(NodoBB*& NodoBB, PtrNodoLista& Lista) {
 	inicio = time(NULL);
 
 	int cont = 0;
+	PtrNodoLista Aux;
+	Aux = Lista;
 
-	vector<PtrNodoLista> nodos = MezclarLista(Lista);
-
-	for (const auto& nodo : nodos) {
+	while (Aux != NULL) {
 		
-		InsertarBB(NodoBB, nodo->Cedula, nodo->Codelec, nodo->FechaVencimientoCedula, nodo->Junta, nodo->Nombre, nodo->PrimerApellido, nodo->SegundoApellido);
+		InsertarBB(NodoBB, Aux->Cedula, Aux->Codelec, Aux->FechaVencimientoCedula, Aux->Junta, Aux->Nombre, Aux->PrimerApellido, Aux->SegundoApellido);
+		Aux = Aux->PtrSiguiente;
 		cont++;
-
 	}
 
 	fin = time(NULL);
